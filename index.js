@@ -23,4 +23,15 @@ const textstuff = document.getElementById("root").append(h1);
 
 
 // React code 
-ReactDOM.render(<h1 className="header2"> Hello, React!</h1>, document.getElementById("root")); 
+
+const page = (
+    <div>
+    <h1 className="header2"> Hello, React!</h1>
+    <p>This is a paragraph</p>
+    </div>
+)
+   
+ReactDOM.render(
+        page, 
+        document.getElementById("root")
+); 

@@ -1,4 +1,6 @@
 
+// ### Lesson 1 ### 
+
 /* function MainContent() {
     return (
         <h1>Hello</h1>
@@ -14,9 +16,10 @@ ReactDOM.render(
     document.getElementById("root")
 );  */
 
-
+// ### Lesson 2 ### 
 // Vanilla JS 
-const h1 = document.createElement("h1")
+
+/* const h1 = document.createElement("h1")
 h1.textContent = "This is an imperative way to program"
 h1.className = "header"
 const textstuff = document.getElementById("root").append(h1); 
@@ -34,7 +37,10 @@ const page = (
 ReactDOM.render(
         page, 
         document.getElementById("root")
-); 
+);  */
+
+// ### Lesson 3 ### 
+// Using react
 
 /*
 Create a navbar in JSX: 
@@ -45,3 +51,25 @@ Create a navbar in JSX:
     - Don't worry about styling yet 
 
 */
+
+import React from "react"
+
+const navbar = (
+      <div>
+        <h1>Daniels Website</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+)
+
+ReactDOM.render(
+    navbar,
+    document.getElementById('root')
+) 
+
+ 
+
